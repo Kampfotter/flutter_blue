@@ -20,6 +20,10 @@ class FlutterBlue {
     _setLogLevelIfAvailable();
   }
 
+  static void BlowItUp(){
+    _instance = new FlutterBlue._();
+  }
+
   static FlutterBlue _instance = new FlutterBlue._();
   static FlutterBlue get instance => _instance;
 
