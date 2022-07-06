@@ -27,7 +27,7 @@ android {
     compileSdkVersion 32
 
     defaultConfig {
-        minSdkVersion 19
+        minSdkVersion 32
         targetSdkVersion 32
         // Use Java 8 language features and APIs
         // https://developer.android.com/studio/write/java8-support
