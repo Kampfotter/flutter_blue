@@ -24,11 +24,11 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.google.protobuf'
 
 android {
-    compileSdkVersion 32
+    compileSdkVersion 40
 
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 32
+        targetSdkVersion 40
         // Use Java 8 language features and APIs
         // https://developer.android.com/studio/write/java8-support
         multiDexEnabled true
