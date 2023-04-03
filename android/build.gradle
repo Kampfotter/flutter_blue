@@ -27,7 +27,7 @@ android {
     compileSdkVersion 33
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 34
+        targetSdkVersion 33
         // Use Java 8 language features and APIs
         // https://developer.android.com/studio/write/java8-support
         multiDexEnabled true
